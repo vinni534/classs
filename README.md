@@ -23,7 +23,7 @@ for (top, right, bottom, left), face_encoding in zip(unknown_face_locations, unk
     # Label the face
     cv2.putText(unknown_image, name, (left, top - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 0, 0), 2)
 
-# Convert color from BGR to RGB before showing
+# Convert color from BGR to RGB before showingg
 rgb_image = cv2.cvtColor(unknown_image, cv2.COLOR_RGB2BGR)
 
 # Show the result
